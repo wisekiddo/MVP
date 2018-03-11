@@ -8,7 +8,7 @@ import dagger.Provides;
  *
  * Module specifies all the providers of the injection for the current Feature
  * in our case, we will define a Provider that provides a
- * - new LoginPresenter(), new LoginModel() and login
+ * - new LoginPresenter(), new LoginModel() and loginRepository()
  */
 
 
@@ -20,8 +20,6 @@ public class LoginModule {
         return new LoginPresenter(model);
     }
 
-
-
     @Provides
     public LoginInterface.Model provideLoginActivityModel(LoginInterface.Repository repository){
         return new LoginModel(repository);
@@ -29,7 +27,7 @@ public class LoginModule {
 
     @Provides
     public LoginInterface.Repository provideLoginRepository(){
-        return new MemoryRepository();
+        return new LoginRepository();
     }
 
 }
