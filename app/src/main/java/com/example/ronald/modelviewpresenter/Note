@@ -7,7 +7,7 @@ DESIGN PATTERN
 
 FOLDER STRUCTURE
 
-    The folder structure is based on usage of every element, e.g. Model classes
+    The folder structure is based on re-usability, e.g. Model classes
 
     *feature folder, why?
         - A feature is a prominent characteristic or something added as a special attraction.

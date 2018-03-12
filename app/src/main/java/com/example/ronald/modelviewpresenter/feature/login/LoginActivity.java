@@ -8,7 +8,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.ronald.modelviewpresenter.R;
-import com.example.ronald.modelviewpresenter.feature.BaseActivity;
+
+import com.example.ronald.modelviewpresenter.feature.FeatureBaseActivity;
 import com.example.ronald.modelviewpresenter.root.ApplicationBase;
 
 import javax.inject.Inject;
@@ -17,7 +18,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class LoginActivity extends BaseActivity implements LoginInterface.View{
+public class LoginActivity extends FeatureBaseActivity implements LoginInterface.View{
 
     @Inject LoginInterface.Presenter presenter;
 
@@ -61,8 +62,8 @@ public class LoginActivity extends BaseActivity implements LoginInterface.View{
     }
 
     @Override
-    public void showMessage() {
-        Toast.makeText(this, "Password and Username", Toast.LENGTH_SHORT).show();
+    public void showMessage(String msg) {
+        Toast.makeText(this, msg, Toast.LENGTH_SHORT).show();
     }
 
     @Override

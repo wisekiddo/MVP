@@ -27,11 +27,13 @@ public class LoginPresenter implements LoginInterface.Presenter{
     public void loginButtonClicked() {
         if (view != null) {
             if (view.getUsername().trim().equals("") || view.getPassword().trim().equals("")) {
-                //view.showInputError();
+                view.showMessage("Please enter Password and Usename");
             } else {
                 //Validate a dummy user
+                String username = view.getUsername();
+                String passwotd = view.getPassword();
                 model.validate(view.getUsername(), view.getPassword());
-                view.showMessage();
+                view.showMessage("Username: "+ username + " Password: " + passwotd);
 
             }
 
@@ -45,8 +47,8 @@ public class LoginPresenter implements LoginInterface.Presenter{
 
         if (user != null) {
             if (view != null) {
-                view.setPassword(user.getFirstName());
-                view.setUsername(user.getLastName());
+                view.setPassword(user.getPassword());
+                view.setUsername(user.getUsername());
             }
         }
 

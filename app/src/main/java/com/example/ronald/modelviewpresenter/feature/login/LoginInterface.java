@@ -23,7 +23,7 @@ public interface LoginInterface {
         void setPassword(String password);
         void setUsername(String username);
 
-        void showMessage();
+        void showMessage(String msg);
 
     }
 
