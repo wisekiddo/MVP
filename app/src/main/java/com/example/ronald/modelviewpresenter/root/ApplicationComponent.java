@@ -14,10 +14,9 @@ import dagger.Provides;
  * Created by ronald on 6/3/18.
  */
 
-@Singleton @Component(modules =  {ApplicationModule.class,  LoginModule.class})
+@Singleton
+@Component(modules =  {ApplicationModule.class,  LoginModule.class})
 public interface ApplicationComponent {
-
     void inject(LoginActivity target);
-
 }
 

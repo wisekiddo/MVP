@@ -13,6 +13,7 @@ public class LoginRepository implements LoginInterface.Repository{
     @Override
     public User getUser() {
 
+        System.out.print("Request for getUser");
         if (user == null) {
             User user = new User("Ronald", "Bernardo");
             user.setId(0);
@@ -25,6 +26,8 @@ public class LoginRepository implements LoginInterface.Repository{
 
     @Override
     public void addUser(User user) {
+
+        System.out.print("Adding new user");
 
         if (user == null) {
             user = getUser();
