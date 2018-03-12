@@ -35,7 +35,7 @@ public class LoginActivity extends AppCompatActivity implements LoginInterface.V
     }
 
     @OnClick(R.id.btnLogin)
-     void onLogin(View view){
+    void onLogin(View view){
         presenter.loginButtonClicked();
     }
 
