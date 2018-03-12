@@ -29,7 +29,7 @@ public class LoginPresenter implements LoginInterface.Presenter{
             if (view.getUsername().trim().equals("") || view.getPassword().trim().equals("")) {
                 //view.showInputError();
             } else {
-                //Create a dummy user
+                //Validate a dummy user
                 //model.validate(view.getUsername(), view.getPassword());
                 view.showMessage();
 

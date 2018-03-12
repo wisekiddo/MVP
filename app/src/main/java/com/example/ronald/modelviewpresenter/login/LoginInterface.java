@@ -36,8 +36,10 @@ public interface LoginInterface {
     }
 
     interface Repository {
+
         User getUser();
         void addUser(User user);
+
     }
 
 

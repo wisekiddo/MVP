@@ -11,9 +11,10 @@ public class LoginModel implements LoginInterface.Model {
     private LoginInterface.Repository repository;
 
     public LoginModel(LoginInterface.Repository repository) {
-        this.repository = repository;
-    }
 
+        this.repository = repository;
+
+    }
 
     @Override
     public Boolean validate(String username, String password) {
@@ -28,6 +29,8 @@ public class LoginModel implements LoginInterface.Model {
 
     @Override
     public User getUser() {
+
         return null;
+
     }
 }
