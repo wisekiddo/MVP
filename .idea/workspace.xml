@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e8f0cbd-f59c-4fcc-97cf-2d6c24963a82" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="2e8f0cbd-f59c-4fcc-97cf-2d6c24963a82" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,16 +43,22 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ronald/modelviewpresenter/login/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 77a9f9583c87dd8a7320215362a27a7507b2b644
             <state relative-caret-position="165">
               <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
                 <marker date="1520787378008" expanded="true" signature="1283:1289" ph="{...}" />
+<<<<<<< HEAD
 =======
             <state relative-caret-position="75">
               <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <marker date="1520787299865" expanded="true" signature="772:778" ph="{...}" />
 >>>>>>> master
+=======
+>>>>>>> 77a9f9583c87dd8a7320215362a27a7507b2b644
               </folding>
             </state>
           </provider>
@@ -67,10 +71,14 @@
               <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
               <folding>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <marker date="1520787378007" expanded="true" signature="542:1201" ph="{...}" />
 =======
                 <marker date="1520787299864" expanded="true" signature="542:1061" ph="{...}" />
 >>>>>>> master
+=======
+                <marker date="1520787378007" expanded="true" signature="542:1201" ph="{...}" />
+>>>>>>> 77a9f9583c87dd8a7320215362a27a7507b2b644
               </folding>
             </state>
           </provider>
@@ -2022,10 +2030,14 @@
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
 <<<<<<< HEAD
+<<<<<<< HEAD
         <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520787382802" />
 =======
         <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520787341038" />
 >>>>>>> master
+=======
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520787382802" />
+>>>>>>> 77a9f9583c87dd8a7320215362a27a7507b2b644
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2126,10 +2138,14 @@
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
 <<<<<<< HEAD
+<<<<<<< HEAD
         <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520787382802" />
 =======
         <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520787341038" />
 >>>>>>> master
+=======
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520787382802" />
+>>>>>>> 77a9f9583c87dd8a7320215362a27a7507b2b644
       </method>
     </configuration>
     <list size="1">
@@ -2260,10 +2276,13 @@
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <marker date="1520787378008" expanded="true" signature="1283:1289" ph="{...}" />
+<<<<<<< HEAD
 =======
           <folding>
             <marker date="1520787299866" expanded="true" signature="1020:1260" ph="{...}" />
 >>>>>>> master
+=======
+>>>>>>> 77a9f9583c87dd8a7320215362a27a7507b2b644
           </folding>
         </state>
       </provider>
@@ -2293,6 +2312,7 @@
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <marker date="1520787378008" expanded="true" signature="1283:1289" ph="{...}" />
+<<<<<<< HEAD
 =======
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ronald/modelviewpresenter/login/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -2301,6 +2321,8 @@
           <folding>
             <marker date="1520787299865" expanded="true" signature="772:778" ph="{...}" />
 >>>>>>> master
+=======
+>>>>>>> 77a9f9583c87dd8a7320215362a27a7507b2b644
           </folding>
         </state>
       </provider>
@@ -2311,10 +2333,14 @@
           <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <marker date="1520787378007" expanded="true" signature="542:1201" ph="{...}" />
 =======
             <marker date="1520787299864" expanded="true" signature="542:1061" ph="{...}" />
 >>>>>>> master
+=======
+            <marker date="1520787378007" expanded="true" signature="542:1201" ph="{...}" />
+>>>>>>> 77a9f9583c87dd8a7320215362a27a7507b2b644
           </folding>
         </state>
       </provider>
