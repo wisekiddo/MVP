@@ -1,4 +1,4 @@
-package com.example.ronald.modelviewpresenter.login;
+package com.example.ronald.modelviewpresenter.feature.login;
 
 import dagger.Module;
 import dagger.Provides;

@@ -8,3 +8,10 @@ DESIGN PATTERN
 FOLDER STRUCTURE
 
     The folder structure is based on usage of every element, e.g. Model classes
+
+    *feature folder, why?
+        - A feature is a prominent characteristic or something added as a special attraction.
+        One product has many features which we can generally separate into two groups:
+        the different things it can do, and the different UI attractions.
+        example the login feature or landing page feature
+

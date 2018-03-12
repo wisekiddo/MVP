@@ -1,14 +1,14 @@
-package com.example.ronald.modelviewpresenter.login;
+package com.example.ronald.modelviewpresenter.feature.login;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.ronald.modelviewpresenter.R;
+import com.example.ronald.modelviewpresenter.feature.BaseActivity;
 import com.example.ronald.modelviewpresenter.root.ApplicationBase;
 
 import javax.inject.Inject;
@@ -17,7 +17,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class LoginActivity extends AppCompatActivity implements LoginInterface.View{
+public class LoginActivity extends BaseActivity implements LoginInterface.View{
 
     @Inject LoginInterface.Presenter presenter;
 
