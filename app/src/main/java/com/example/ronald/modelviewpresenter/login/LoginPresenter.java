@@ -2,7 +2,7 @@ package com.example.ronald.modelviewpresenter.login;
 
 import android.support.annotation.Nullable;
 
-import com.example.ronald.modelviewpresenter.login.model.User;
+import com.example.ronald.modelviewpresenter.model.User;
 
 /**
  * Created by ronald on 6/3/18.

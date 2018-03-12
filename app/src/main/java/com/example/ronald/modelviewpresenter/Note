@@ -1,0 +1,10 @@
+DESIGN PATTERN
+
+    MVP with Passive View and Presentation Model
+    - make it easier to separate certain responsibilities of the app, easy to read/trace/expand and make it much easier to maintain the code as a whole.
+    note: It requires solid knowledge of MVP pattern
+
+
+FOLDER STRUCTURE
+
+    The folder structure is based on usage of every element, e.g. Model classes
