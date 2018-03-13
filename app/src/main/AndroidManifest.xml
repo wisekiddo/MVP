@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ronald.modelviewpresenter">
+    package="com.mokapos.ronald.modelviewpresenter">
 
     <application
-        android:name=".root.ApplicationBase"
+        android:name="com.mokapos.ronald.modelviewpresenter.root.ApplicationBase"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".feature.login.LoginActivity">
+        <activity android:name="com.mokapos.ronald.modelviewpresenter.feature.login.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,7 +18,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".feature.BaseActivity"
+            android:name=".feature.FeatureBaseActivity"
             android:label="@string/title_activity_base"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
